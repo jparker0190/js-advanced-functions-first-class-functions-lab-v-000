@@ -19,3 +19,6 @@ function createFareMultiplier(fare){
     return function easy(fare){fare * 2}
 }
 }
+const fareDoubler = function(fare){
+  return fare;
+}
