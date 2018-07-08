@@ -1,4 +1,5 @@
 // Code your solution in this file!
-const func = function returnFirstTwoDrivers(drivers){
-  drivers.slice(1)
+function returnFirstTwoDrivers(drivers){
+  var j = drivers.slice(1)
+  return j
 }
