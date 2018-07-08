@@ -14,4 +14,5 @@ function createFareMultiplier(fare){
     function higher(fare){fare * 4}
   }
   else{fare * 2}
+  return result
 }
