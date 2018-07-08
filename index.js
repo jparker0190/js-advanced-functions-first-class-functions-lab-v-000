@@ -3,3 +3,4 @@ function returnFirstTwoDrivers(drivers){
   const j = drivers.slice(0, 2)
   return j
 }
+const fun = function(){returnFirstTwoDrivers()}
