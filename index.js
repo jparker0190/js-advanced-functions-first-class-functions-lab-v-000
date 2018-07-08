@@ -1,4 +1,4 @@
 // Code your solution in this file!
-function returnFirstTwoDrivers(drivers){
+const func = function returnFirstTwoDrivers(drivers){
   drivers.slice(1)
 }
