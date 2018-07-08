@@ -12,4 +12,3 @@ function createFareMultiplier(fare){
   if (fare >= 4){return function higher(som){var j = som * 5 return j}}
   else {return function easy(fare){fare * 2}}
 }
-const fareDoubler = function createFareMultiplier()
