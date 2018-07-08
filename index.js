@@ -10,7 +10,9 @@ const returnLastTwoDrivers = function returnLastTwoDrivers(drivers){
 const selectingDrivers = [returnFirstTwoDrivers, returnLastTwoDrivers]
 function createFareMultiplier(fare){
   if (fare === 4){
-    return function higher(fare){fare * 4}
+    return function higher(som){som * 4}
   }
-  else{return function easy(fare){fare * 2}
+  else {
+    return function easy(fare){fare * 2}
+}
 }
