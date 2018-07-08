@@ -3,4 +3,3 @@ const returnFirstTwoDrivers = function returnFirstTwoDrivers(drivers){
   const j = drivers.slice(0, 2)
   return j
 }
-const fun = funn
